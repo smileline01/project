@@ -1,27 +1,23 @@
-
-
 {
   "name": "aggiornadb",
-  "version": "1.0.0",
-  "description": "il mmio progetto",
-  "main": "aggiornadb.js",
+  "description": "This is the default fulfillment for a Dialogflow agents using Cloud Functions for Firebase",
+  "version": "0.0.1",
+  "private": true,
+  "license": "Apache Version 2.0",
+  "author": "Google Inc.",
+  "engines": {
+    "node": "8"
+  },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node aggiornadb.js",
   },
-  "author": "emanuele",
-  "license": "ISC",
-  "repository": {
-    "type": "git",
-    "url": "nothing"
-  },
-  "keywords": [
-    "smileline"
-  ],
   "dependencies": {
-    "firebase": "^7.9.0",
-    "require": "^2.4.20",
-	"node-cron": "^2.0.3",
-    "request-promise": "^1.0",
+    "actions-on-google": "^2.2.0",
+    "firebase-admin": "^5.13.1",
+    "firebase-functions": "^2.0.2",
+    "dialogflow": "^0.6.0",
+    "dialogflow-fulfillment": "^0.5.0",
+      "request-promise-native": "^1.0",
     "request": "^2.87"
   }
 }
