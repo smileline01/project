@@ -5,7 +5,7 @@
 
 
 
- var serviceAccount = require("/key.json");
+ var serviceAccount = require("key.json");
  firebase.initializeApp({
    credential: firebase.credential.cert(serviceAccount),
    databaseURL: "https://smilelineallineatori-beklyf.firebaseio.com"
