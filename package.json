@@ -9,7 +9,7 @@
     "node": "8"
   },
   "scripts": {
-    "start": "node aggiornadb.js",
+    "start": "node aggiornadb.js"
   },
   "dependencies": {
     "actions-on-google": "^2.2.0",
