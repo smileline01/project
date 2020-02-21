@@ -2,6 +2,8 @@
 
  var firebase = require("firebase-admin");
  var request = require('request-promise');
+ const cron = require('node-cron');
+
 
  var serviceAccount = {
     apiKey: "AIzaSyDxXTY-IAmD0YiXxN_x2H76ki5zMJL3jTc",
@@ -18,6 +20,8 @@
    credential: firebase.credential.cert(serviceAccount),
    databaseURL: "https://smilelineallineatori-beklyf.firebaseio.com"
  });
+ cron.schedule('* * * * *', () => {
+    // code
 
 var url="https://www.smilelineallineatori.it/test.php";
 
@@ -90,6 +94,6 @@ request(reqOptions)
       }
   })
   .catch(function(err) {
-    console.log("request failed : "+err);
   });
+});
 
