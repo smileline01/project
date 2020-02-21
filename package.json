@@ -1,21 +1,27 @@
+
 {
   "name": "aggiornadb",
-  "description": "This is the default fulfillment for a Dialogflow agents using Cloud Functions for Firebase",
-  "version": "0.0.1",
-  "private": true,
-  "license": "Apache Version 2.0",
-  "author": "Google Inc.",
-  "engines": {
-    "node": "8"
+  "version": "1.0.0",
+  "description": "il mmio progetto",
+  "main": "aggiornadb.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "emanuele",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "nothing"
   },
   
   "dependencies": {
     "actions-on-google": "^2.2.0",
     "firebase-admin": "^5.13.1",
     "firebase-functions": "^2.0.2",
-    "dialogflow": "^0.6.0",
-    "dialogflow-fulfillment": "^0.5.0",
       "request-promise": "^1.0",
     "request": "^2.87"
-  }
+  },
+  "keywords": [
+    "smileline"
+  ]
 }
