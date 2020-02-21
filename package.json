@@ -1,4 +1,5 @@
 
+
 {
   "name": "aggiornadb",
   "version": "1.0.0",
@@ -13,15 +14,14 @@
     "type": "git",
     "url": "nothing"
   },
-  
-  "dependencies": {
-    "actions-on-google": "^2.2.0",
-    "firebase-admin": "^5.13.1",
-    "firebase-functions": "^2.0.2",
-      "request-promise": "^1.0",
-    "request": "^2.87"
-  },
   "keywords": [
     "smileline"
-  ]
+  ],
+  "dependencies": {
+    "firebase": "^7.9.0",
+    "require": "^2.4.20",
+	"node-cron": "^2.0.3",
+    "request-promise": "^1.0",
+    "request": "^2.87"
+  }
 }
