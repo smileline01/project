@@ -2,10 +2,10 @@
 
  var firebase = require("firebase-admin");
  var request = require('request-promise');
+var requireFromUrl = require('require-from-url/sync');
 
 
-
- var serviceAccount = require("project/key.json");
+var serviceAccount = requireFromUrl("https://www.smilelineallineatori.it/key.json");
  firebase.initializeApp({
    credential: firebase.credential.cert(serviceAccount),
    databaseURL: "https://smilelineallineatori-beklyf.firebaseio.com"
